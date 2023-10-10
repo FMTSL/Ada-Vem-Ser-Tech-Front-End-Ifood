@@ -1,0 +1,34 @@
+html{
+    font-family: cursive;
+}
+
+h1, h2 {
+    color: white;
+    background: red;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+ol li {
+    display: flex;
+    justify-content: center;
+
+    background: linear-gradient(to right, blue 50%, rgb(255, 0, 0) 0);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: 900;
+   font-family: Arial;
+}
+table{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+tbody {
+    background-color: blue;
+    color: white;
+}

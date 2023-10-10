@@ -1,0 +1,20 @@
+html {
+    font-family: cursive;
+    font-size: 20px;
+}
+.pai {
+    color: blue;
+    font-weight: 500;
+}
+.mae {
+    color: pink;
+    font-weight: 500;
+}
+.filho {
+    color: red;
+    font-weight: 500;
+}
+.filha {
+    color: yellowgreen;
+    font-weight: 500;
+}

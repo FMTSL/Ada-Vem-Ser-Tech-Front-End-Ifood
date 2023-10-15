@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Pixelify+Sans:wght@400;500;700&family=Roboto:ital,wght@0,500;1,300&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+form, h2{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 70px;
+    align-items: center;
+}
+@media (min-width: 1400px){
+    .container{
+        max-width: 1320px;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+    
+}
+@media (min-width: 576px){
+    .container{
+        max-width: 540px;
+    }  
+}
+.container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+form, h2 {
+    font-family: 'Pixelify Sans', sans-serif;
+    display: flex;
+    grid-gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+input[type="text"], [type="number"], [type="email"], [type="doacao"] {
+    width: 100%;
+    height: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: underline;
+    border-color: red;
+}
+
+select#categoria {
+    width: 100%;
+    height: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    border-color: red;
+}
+button {
+    height: 3rem;
+    border-radius: 40px;
+    width: 10rem;
+    font-family: 'Pixelify Sans', sans-serif;
+    border-color: red;
+    background: transparent;
+}
+button {
+    height: 3rem;
+    border-radius: 40px;
+    width: 10rem;
+    font-family: 'Pixelify Sans', sans-serif;
+    border-color: red;
+    background: transparent;
+}

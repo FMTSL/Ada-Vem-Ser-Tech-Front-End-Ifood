@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4 - Evento da ONG Ajude a Causa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Evento da ONG Ajude a Causa</h1>
+    <h2>Cadastro</h2>
+
+    <section>
+        <div class="container">
+            <form action="http://localhost:3000/registrations" autocomplete="off" method="POST">
+                <div>
+                    <label for="nomeParticipante">Nome do participante:</label><br>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo:" required>
+                </div>
+        
+                <div>
+                    <label for="idadeParticipante">Idade do participante:</label><br>
+                    <input type="number" id="idade" min="0" name="idade" placeholder="Digite sua idade:" required>
+                </div>
+        
+                <div>
+                    <label for="emailParticipante">E-mail do participante:</label><br>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email:" required>
+                </div>
+        
+                <div>
+                    <div>
+                        <label for="tamanhoCamiseta" id="tamanhoCamiseta">Tamanho da camiseta:</label>
+                    </div>
+                    <label for="tamanhoP">P:</label>
+                    <input type="radio" name="tamanho" value="P">
+                    <label for="tamanhoP">M:</label>
+                    <input type="radio" name="tamanho" value="M">
+                    <label for="tamanhoP">G:</label>
+                    <input type="radio" name="tamanho" value="G">
+                    <label for="tamanhoP">GG:</label>
+                    <input type="radio" name="tamanho" value="GG">
+                    <label for="tamanhoP">XG:</label>
+                    <input type="radio" name="tamanho" value="XG" required>
+                </div>
+        
+                <div>
+                    <label for="categoriaInscricao">Categoria de inscrição:</label><br>
+                    <select name="categoria" id="categoria" required="required">
+                        <option value="" disabled selected>Escolha uma categoria</option>
+                        <option value="3RUN">Corrida 3km</option>
+                        <option value="5RUN">Corrida 5km</option>
+                        <option value="4WALK">Caminhada 4km</option>
+                    </select>
+                    
+                </div>
+        
+                <div>
+                    <label for="valorDoacao">Valor da Doação:</label><br>
+                    <input type="number" name="doacao" id="doacao" min="0" placeholder="Digite um valor para doação:" step="0.01" required>
+                </div>
+        
+                <div>
+                    <button type="submit" value="enviar">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

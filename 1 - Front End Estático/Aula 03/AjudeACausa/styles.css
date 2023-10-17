@@ -78,11 +78,3 @@ button {
     border-color: red;
     background: transparent;
 }
-button {
-    height: 3rem;
-    border-radius: 40px;
-    width: 10rem;
-    font-family: 'Pixelify Sans', sans-serif;
-    border-color: red;
-    background: transparent;
-}

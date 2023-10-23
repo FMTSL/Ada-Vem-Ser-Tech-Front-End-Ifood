@@ -39,7 +39,7 @@ small {
 header{
     width: 100%;
     height: 200px;
-    background-image: url(../images/banner-principal.png);
+    background-image: url(../images/banner-principal.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -238,4 +238,3 @@ footer > p > a{
     margin: 1rem 0rem 1rem 0rem;
     color: white;
 }
-article > section > figure > figcaption

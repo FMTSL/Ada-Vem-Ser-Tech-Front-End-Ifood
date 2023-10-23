@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Inter', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #047044;
+    border: so;
+}
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 54px;
+}
+h3{
+    font-size: 44px;
+}
+h4{
+    font-size: 34px;
+}
+h5{
+    font-size: 24px;
+}
+h6 {
+    font-size: 18px;
+}
+p {
+    font-size: 16px;
+}
+small {
+    font-size: 10px;
+    padding: 0rem 2rem 0rem 2rem;
+}
+header{
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/banner-principal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    height: 100vh;
+}
+header > nav {
+    width: 70%;
+    height: 90vh;
+    background-color: white;
+    margin: auto;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 1rem;
+}
+header > nav > ul {
+    float: right;
+    padding: 1em;
+}
+header > nav > ul > li {
+    width: 248px;
+    height: 21px;
+    display: inline-block;
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+header > nav > ul > li > a > figure> img{
+    width: 100%;
+    max-width: 40%;
+}
+header > nav > div >figure> figcaption{
+    display: none;
+}
+header > nav > div {
+    float: right;
+    padding: 2em;
+    margin: 10px auto;
+}
+header > nav > div > h1 {
+    color: #434343;
+    width: 50%;
+}
+header > nav > div > p {
+    color: #000;
+    font-weight: 500;
+    line-height: 241.523%;
+    width: 50%;
+    position: relative;
+    top: 1rem;
+}
+header > nav > div > button {
+    position: relative;
+    top: 2rem; 
+    width: 135px;
+    height: 53px;
+    border-radius: 30px;
+    background: #047044;
+    color: #FFF;
+    border: none;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header > nav > div > figure > img {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    max-width: 40%;
+    width: 100%;
+}
+strong {
+    color: #047044;
+}
+@media (max-width: 480px){
+    header > nav > ul > li {
+        max-width: 170px;
+    }
+}
+@media (max-width: 768px){
+    header > nav > ul > li {
+        max-width: 170px;
+    }
+}
+@media (max-width: 992px){
+    header > nav > ul > li {
+        max-width: 170px;
+    }
+}
+@media (max-width: 1200px){
+    header > nav > ul > li {
+        max-width: 170px;
+    }
+}
+@media (max-width: 1600px){
+    header > nav > ul > li {
+        max-width: 170px;
+    }
+}
+@media (max-width: 1900px){
+    header > nav > ul > li {
+        max-width: 170px;
+    }
+    header > nav {
+        height: 95vh;
+    }
+    header > nav > div > h1 {
+        font-size: 45px;
+    }
+    main{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+main{
+    width: 1080px;
+    margin: 0 auto;
+}
+article {
+    width: 710px;
+    float: left;
+    height: 100vh;
+}
+article > h2, h3 {
+    text-align: center;
+    margin: 1rem auto;
+}
+article > p {
+    text-align: justify;
+    margin: 1rem auto;
+}
+article > section{
+    padding: 0rem 0rem 1rem 0rem;
+}
+article > section > figure > img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+}
+article > section > p{
+    margin: 0 auto;
+    font-size: 17px;
+    padding: 1rem 2rem 2rem 2rem;
+    text-align: justify;
+}
+aside{
+    width: 350px;
+    float: right;
+    background-color: #f3f0ed;
+    padding-bottom: 4rem;
+}
+aside > p{
+    margin: 0 auto;
+    font-size: 17px;
+    padding: 1rem 2rem 2rem 2rem;
+    text-align: justify;
+    font-weight: 700;
+}
+aside > figure > img{
+    width: 100%;
+    padding: 1rem 3rem 1rem 3rem;
+    max-width: 70%;
+}
+aside > button{
+    position: relative;
+    width: 135px;
+    height: 53px;
+    border-radius: 30px;
+    background: #047044;
+    color: #FFF;
+    border: none;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    left: 7rem;
+}
+footer {
+    clear: both;
+    background-color: #047044;
+    color: white;
+    padding: 20px 0 30px 0;
+    text-align: center;  
+}
+footer > p{
+    text-decoration: none;
+    padding: 0 2rem 0 2rem;
+    margin: 2rem 0rem 2rem 0rem;
+}
+footer > p > a{
+    text-decoration: none;
+    padding: 0 2rem 0 2rem;
+    margin: 1rem 0rem 1rem 0rem;
+    color: white;
+}
+article > section > figure > figcaption

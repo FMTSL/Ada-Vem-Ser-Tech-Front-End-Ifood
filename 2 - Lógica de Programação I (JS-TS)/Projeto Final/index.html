@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lista de Tarefas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body page='lista'>
+
+        <div id='listaRegistros'>
+
+            <div style='display: flex;'>
+                <input style='flex:1' placeholder="Pesquisar" autofocus id='inputPesquisa' />
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Descrição</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id='listaRegistrosBody'></tbody>
+            </table>
+
+            <div>
+                <button onclick="vizualizar('cadastro', true)">Cadastrar</button>
+            </div>
+
+        </div>
+
+        <form id='cadastroRegistro'>
+
+            <div style="display: none;">
+                <div>ID</div>
+                <div>
+                    <input type='number' readonly id='id' />
+                </div>
+            </div>
+
+            <div class='label'>
+                <div>Nome</div>
+                <div>
+                    <input id='nome' />
+                </div>
+            </div>
+
+            <div class='label'>
+                <div>Descrição</div>
+                <div>
+                    <input type='tel' id='descricao' />
+                </div>
+            </div>
+
+            <div>
+                <button>Salvar</button>
+                <button onclick="vizualizar('lista')" class="cinza" type='button'>Cancelar</button>
+            </div>
+
+        </form>
+        <script type='text/javascript' src="script.js"></script>
+    </body>
+
+</html>
